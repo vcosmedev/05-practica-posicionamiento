@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(/assets/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.containerOne {
+    width: 425px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #ccc;
+    position: fixed;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.borderIMG {
+    border-radius: 20px 20px 0 0;
+    width: 425px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.titulo {
+    margin: 15px 40px;
+    font-size:xx-large; 
+}
+
+.parragraphOne {
+    margin: 15px 40px;
+    color: grey;
+}
+
+.containerTwo {
+    background-color: #f8f9fe;
+    width: 350px;
+    height: 75px;
+    border-radius: 20px;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: inline-block;
+    margin-top: 50px;
+    color: #0d1b39;
+}
+
+.musicButton {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+.payment {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+
+.change {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translateX(-50%) translateY(-50%);
+
+
+}
+
+.buttons {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.buttonOne {
+    background-color: #3d42e1;
+    color: white;
+    box-shadow: 2px 2px 4px #000000;
+    font-weight: bolder;
+}
+
+
+.buttonTwo {
+    background: none;
+    border: none;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    
+}
+
+.change:hover {
+    color: #655cf1;
+}
+
+.buttonOne:hover {
+    background-color: #655cf1;
+    cursor: pointer;
+}
+
+.buttonTwo:hover {
+    color: #0d1b39;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+/*
+.buttons {
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+.buttonOne {
+    background-color: #3d42e1;
+    border-radius: 10px;
+    color: #ccc;
+    box-shadow: 0 0 10px 0;
+    margin-inline: 50%;
+    display: block;
+    padding: 15px 30px;
+}
+
+.buttonTwo {
+    background-color: #3d42e1;
+    color: #ccc;
+    left: 50%;
+    transform: translateY(-50%);
+    margin-inline: 50%;
+    display: block;
+    padding: 15px 30px;
+}
+
+p :hover {
+    color: grey;
+}
+*/
+
